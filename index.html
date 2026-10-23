@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0E1116">
+  <title>AMOR &amp; Deutsch – cartes à réviser</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icones/icone-192.png">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AMOR &amp; Deutsch">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="fond-pulse" aria-hidden="true"></div>
+  <div id="app"><main id="vue" tabindex="-1"></main></div>
+  <div id="particules" aria-hidden="true"></div>
+
+  <div id="annonce" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <div id="niveau" hidden>
+    <div class="niveau-contenu">
+      <p class="niveau-titre">Niveau</p>
+      <p class="niveau-nombre" id="niveau-nombre">2</p>
+    </div>
+  </div>
+
+  <noscript><p style="padding:16px">Cette application a besoin de JavaScript.</p></noscript>
+
+  <!-- Scripts classiques, sans modules : index.html s'ouvre par un double-clic. L'ordre compte. -->
+  <script src="js/config.js"></script>
+  <script src="js/donnees.js"></script>
+  <script src="data/de/vocabulaire/presenter.js"></script>
+  <script src="data/de/vocabulaire/resto.js"></script>
+  <script src="data/de/vocabulaire/deplacer.js"></script>
+  <script src="data/de/vocabulaire/courses.js"></script>
+  <script src="data/de/vocabulaire/medecin.js"></script>
+  <script src="data/de/vocabulaire/metiers.js"></script>
+  <script src="data/de/vocabulaire/nombres.js"></script>
+  <script src="data/de/vocabulaire/mode.js"></script>
+  <script src="data/de/vocabulaire/famille.js"></script>
+  <script src="data/de/vocabulaire/agriculture.js"></script>
+  <script src="data/de/grammaire.js"></script>
+  <script src="data/de/conjugaison.js"></script>
+  <script src="js/moteur.js"></script>
+  <script src="js/recompenses.js"></script>
+  <script src="js/stockage.js"></script>
+  <script src="js/sons.js"></script>
+  <script src="js/voix.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

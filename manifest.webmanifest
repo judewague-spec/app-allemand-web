@@ -1,0 +1,16 @@
+{
+  "name": "AMOR & Deutsch – cartes à réviser",
+  "short_name": "AMOR & Deutsch",
+  "description": "Apprendre l'allemand en quelques minutes par jour, hors connexion.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0E1116",
+  "theme_color": "#0E1116",
+  "icons": [
+    { "src": "icones/icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

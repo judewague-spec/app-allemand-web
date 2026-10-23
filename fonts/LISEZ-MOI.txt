@@ -1,0 +1,7 @@
+Polices livrées avec l'application (licence SIL Open Font License 1.1), sans Google Fonts.
+
+  Inter-Variable.woff2          Inter (textes) - LICENCE-Inter.txt
+  SpaceGrotesk-Variable.woff2   Space Grotesk (titres et compteurs) - LICENCE-SpaceGrotesk.txt
+
+Fichiers variables, sous-ensemble latin (couvre ä ö ü ß), obtenus via le paquet
+@fontsource-variable (jsDelivr) le 2026-10-19.
