@@ -945,7 +945,7 @@
       fs.writeFile({ path: nom, data: S.exporter(prog), directory: 'CACHE', encoding: 'utf8' })
         .then((r) => partage.share({ title: 'Sauvegarde AMOR & Deutsch', files: [r.uri], dialogTitle: 'Enregistrer ou envoyer la sauvegarde' }))
         .then(() => toast('Sauvegarde prête.'))
-        .catch((e) => { if (!/cancel/i.test(String(e && e.message))) toast('La sauvegarde n'a pas pu être partagée.'); });
+        .catch((e) => { if (!/cancel/i.test(String(e && e.message))) toast("La sauvegarde n'a pas pu être partagée."); });
       return;
     }
     const blob = new Blob([S.exporter(prog)], { type: 'application/json' });

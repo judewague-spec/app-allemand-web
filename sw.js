@@ -8,7 +8,7 @@
    Changer VERSION à chaque publication : l'ancienne coquille est remplacée, l'audio gardé reste. */
 'use strict';
 
-const VERSION = 'v1.0.0-380bcf5a';
+const VERSION = 'v1.0.1-ec7043d1';
 const COQUILLE = 'coquille-' + VERSION;
 const AUDIO = 'audio-v1';
 
